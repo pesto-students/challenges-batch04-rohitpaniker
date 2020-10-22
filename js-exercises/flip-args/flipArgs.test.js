@@ -1,15 +1,15 @@
-import flipped from './flipArgs';
+import fliped from './flipArgs';
 
 describe('flipArgs', () => {
   test('should return reversed parameters', () => {
-    expect(flipped(10, { sleeve: 'Takeshi Kovacs' }, 'comfortablyNumb')).toEqual(JSON.stringify([10, { sleeve: 'Takeshi Kovac' }, 'comfortablyNumb'].reverse()));
+    expect(fliped(10, { sleeve: 'Takeshi Kovacs' }, 'comfortablyNumb')).toEqual(JSON.stringify([10, { sleeve: 'Takeshi Kovac' }, 'comfortablyNumb'].reverse()));
   });
 
-  test('should return null if no argument passed', () => {
-    expect(flipped()).toEqual(null);
+  test('should return a null if no argument passed', () => {
+    expect(fliped()).toEqual(null);
   });
 
-  test('should return same argument if single argument passed', () => {
-    expect(flipped({ sleeve: 'Takeshi Kovacs' })).toEqual(JSON.stringify([{ sleeve: 'Takeshi Kovac' }]));
+  test('should return the same argument if single argument passed', () => {
+    expect(fliped({ sleeve: 'Takeshi Kovacs' })).toEqual(JSON.stringify([{ sleeve: 'Takeshi Kovac' }]));
   });
 });

@@ -1,4 +1,4 @@
-const flipped = (function (...args) {
+const fliped = (function (...args) {
   if (args.length === 0) {
     return null;
   }
@@ -6,4 +6,4 @@ const flipped = (function (...args) {
   return JSON.stringify(args.reverse());
 });
 
-export default flipped;
+export default fliped;

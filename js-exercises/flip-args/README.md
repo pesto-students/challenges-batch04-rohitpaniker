@@ -18,11 +18,11 @@ flipped('a', 'b', 'c', 'd');
 
 ### **What test cases can you add to the test file?**
 
-*Added test case to validate if function provided with argument(s) returns reversed arguments*
+*Added test case to validate if the function provided with argument(s) returns reversed arguments*
 
-*Added test case to validate if function provided with no argument returns null*
+*Added test case to validate if the function provided with no argument returns null*
 
-*Added test case to validate if function provided with one argument returns same argument*
+*Added test case to validate if the function provided with one argument returns same argument*
 
 
 # Restrictions
